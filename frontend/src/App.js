@@ -11,7 +11,7 @@ const projectsData = {
       category: "Retail",
       description: "A minimalist retail space featuring clean lines, natural wood elements, and carefully curated lighting to create an inviting shopping environment.",
       images: [
-        "https://images.unsplash.com/photo-1553487164-47dd19cf0a72",
+        "img/retail/FB2A.png",
         "https://images.unsplash.com/photo-1586107082398-7ac72326a6c9",
         "https://images.unsplash.com/photo-1742602446126-e10f78b518b6"
       ],
