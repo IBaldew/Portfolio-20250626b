@@ -189,34 +189,72 @@ const ProjectCard = ({ project, section }) => {
 // Home Page
 const Home = () => {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <div className="pt-24 pb-16">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      {/* Video Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ filter: 'brightness(0.3) contrast(1.2)' }}
+        >
+          <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1a9e7c02d&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-dark-particles-floating-in-space-41487-large.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80"></div>
+        
+        {/* Animated Particles Overlay */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="particle particle-1"></div>
+          <div className="particle particle-2"></div>
+          <div className="particle particle-3"></div>
+          <div className="particle particle-4"></div>
+          <div className="particle particle-5"></div>
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center py-20">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-fade-in">
               DESIGN
             </h1>
-            <h2 className="text-4xl md:text-6xl font-light text-gray-300 mb-8">
+            <h2 className="text-4xl md:text-6xl font-light text-white mb-8 drop-shadow-lg animate-slide-up">
               PORTFOLIO
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12">
+            <p className="text-xl text-gray-200 max-w-2xl mx-auto mb-12 drop-shadow-md animate-fade-in">
               Crafting exceptional retail experiences and visual identities that captivate and inspire.
             </p>
-            <div className="flex gap-6 justify-center">
+            <div className="flex gap-6 justify-center animate-slide-up">
               <Link 
                 to="/work" 
-                className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+                className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-600/30 hover:shadow-purple-600/50"
               >
                 View Work
               </Link>
               <Link 
                 to="/after-hours" 
-                className="border border-purple-600 text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+                className="border border-purple-600 text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 backdrop-blur-sm bg-black/20"
               >
                 After Hours
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+        <div className="flex flex-col items-center text-white/60 animate-bounce">
+          <span className="text-sm mb-2">Scroll to explore</span>
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
         </div>
       </div>
     </div>
