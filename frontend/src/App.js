@@ -179,7 +179,7 @@ const projectsData = {
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/RB1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/Naamloos-1.jpg",
-        "https://github.com/IBaldew/Portfolio/blob/main/img/graphic/logo/Art%20of%20Beauty/OQ3A7S1%20kopi%C3%ABren%20kopie.png"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/026702099156cda4029f60f80d27995009cc2b78/img/graphic/logo/RB%20Productions/20250803_210950.jpg"
       ],
       year: "2023"
     },
