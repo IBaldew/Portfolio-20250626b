@@ -7,74 +7,300 @@ const projectsData = {
   work: [
     {
       id: 1,
-      title: "Modern Retail Interior",
+      title: "Fitbit Counter Display for CAPI",
       category: "Retail",
-      description: "A minimalist retail space featuring clean lines, natural wood elements, and carefully curated lighting to create an inviting shopping environment.",
+      description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch.",
       images: [
-        "img/retail/FB2A.png",
-        "https://images.unsplash.com/photo-1586107082398-7ac72326a6c9",
-        "https://images.unsplash.com/photo-1742602446126-e10f78b518b6"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/FB2A.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT%20-%201000mm%20breed%20-%2001_PhysCamera001_copy.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT_copy.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20Schiphol%20Lounge%202%20(1).jpg"
       ],
-      year: "2023"
+      year: "2019"
     },
     {
       id: 2,
-      title: "Futuristic Retail Space",
-      category: "Shop-in-Shop",
-      description: "An innovative shop-in-shop concept with cutting-edge lighting design and metallic finishes that create a futuristic shopping experience.",
+      title: "GoPro Floor Display for Harrods",
+      category: "Retail",
+      description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products.",
       images: [
-        "https://images.unsplash.com/photo-1586107082398-7ac72326a6c9",
-        "https://images.unsplash.com/photo-1707586834647-128c7f27d209",
-        "https://images.pexels.com/photos/7552324/pexels-photo-7552324.jpeg"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2003_PhysCamera002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2004b_PhysCamera004.png"
       ],
-      year: "2023"
+      year: "2019"
     },
     {
       id: 3,
-      title: "Brand Identity Animation",
-      category: "Animation",
-      description: "Dynamic brand identity animation for a luxury retail brand, featuring smooth transitions and modern typography.",
+      title: "GoPro Counter Display",
+      category: "Retail",
+      description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's.",
       images: [
-        "https://images.unsplash.com/photo-1658863025658-4a259cc68fc9",
-        "https://images.unsplash.com/photo-1710799885122-428e63eff691"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084512%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084548%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084535%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Left%2001%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Right%2001%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie2%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie%202.png"
       ],
-      year: "2024",
-      video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      year: "2025"
     },
     {
       id: 4,
-      title: "Retail Design Tutorial",
-      category: "Tutorials",
-      description: "Step-by-step tutorial on creating effective retail spaces that drive customer engagement and sales.",
+      title: "Trust Lighting Floor Display",
+      category: "Retail",
+      description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere.",
       images: [
-        "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/TR1A.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/Naamloos-1%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/24029%20-%20Lighting%20displays%20Trust%20-%2002%20kopie%203.png"
+      ],
+      year: "2024"
+    },
+    {
+      id: 5,
+      title: "Mascotte",
+      category: "Retail",
+      description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2002.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/24338-Mignot%20%26%20De%20Block%20BV-Mascotte%20Display-01%20kopie%202.png"
+      ],
+      year: "2025"
+    },
+    {
+      id: 6,
+      title: "Huawei MM Arena",
+      category: "Shop-in-Shop",
+      description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/03.-Huawei-Brand-Store.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/04.-Huawei-Brand-Store.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(2).jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(3).jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Technologies%20NL%20-%20Media%20Markt%20Amsterdam%20Arena%20-%2002.png"
+      ],
+      year: "2019"
+    },
+    {
+      id: 7,
+      title: "Xiaomi E-Sports",
+      category: "Shop-in-Shop",
+      description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/saturn_xperion_xiaomi.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/xiaomi-xperion.jpeg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134325.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134409.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134459.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134536.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134612.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture9.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture5%20-%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture11.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture13.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture14.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture16.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture18.jpg"
+      ],
+      year: "2019"
+    },
+    {
+      id: 8,
+      title: "Huawei Zoetermeer",
+      category: "Shop-in-Shop",
+      description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181519%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181441%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%202.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%203.png"
+      ],
+      year: "2018"
+    },
+    {
+      id: 9,
+      title: "Hoya Eye Exam Stand",
+      category: "Animation",
+      description: "Designed by our design team, I developed an animation which explains the stand's function and options.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2001.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Store%2001%20-%2001.png"
       ],
       year: "2024",
-      video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    }
+      video: "https://www.youtube.com/embed/5CiKyGFnegA?si=xFSbS9IOLq0SNbZr"
+    },
+        {
+      id: 10,
+      title: "Dopper Counter Display",
+      category: "Animation",
+      description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_052.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_125.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_420.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_560.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_700.png"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/PAMOi8orvpk?si=-22GCApTQVyMItRF"
+    },
+    {  
+      id: 11,
+      title: "Crocs Store",
+      category: "Animation",
+      description: "A small flythrough video of a Crocs Store concept.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Crocs%20Store/Store%20-%2001%20-%20Fase%2005%20-%2002%204.png"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/l5qm_RIl6AQ?si=ZknTuOZi7yBQjWm6"
+    },
   ],
   afterHours: [
     {
-      id: 5,
-      title: "Brand Portfolio Collection",
+      id: 20,
+      title: "Art of Beauty",
       category: "Graphic Design",
-      description: "A curated collection of brand identity designs featuring modern typography and sophisticated color palettes.",
+      description: "With different coloured strokes, itt reflects perfecty what the company is all about.",
       images: [
-        "https://images.unsplash.com/photo-1658863025658-4a259cc68fc9",
-        "https://images.unsplash.com/photo-1710799885122-428e63eff691"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/AB1B.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/Art%20of%20Beauty%20Logo%20-%2001%20T-Shirt%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/OQ3A7S1%20kopi%C3%ABren%20kopie.png"
       ],
       year: "2023"
     },
     {
-      id: 6,
-      title: "Jazz Performance",
-      category: "Saxophonist",
-      description: "Live jazz performance at the Blue Note, featuring original compositions and classic standards.",
+      id: 21,
+      title: "RB Productions",
+      category: "Graphic Design",
+      description: "A clear typographical logo which fits the target audience for this music production company.",
       images: [
-        "https://images.unsplash.com/photo-1553487164-47dd19cf0a72"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/RB1B.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/Naamloos-1.jpg",
+        "https://github.com/IBaldew/Portfolio/blob/main/img/graphic/logo/Art%20of%20Beauty/OQ3A7S1%20kopi%C3%ABren%20kopie.png"
+      ],
+      year: "2023"
+    },
+    {
+      id: 22,
+      title: "Naseem",
+      category: "Graphic Design",
+      description: "A Indian music group asked for a simple logo. Naseem meaning 'a fresh breeze', the letter represent a gust of wind with a musical note.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Naseem/N1B.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Naseem/OQ3A7S1%20kopie%202.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Naseem/IMG-20221124-WA0000%20kopie.jpg"
+      ],
+      year: "2023"
+    },
+    {
+      id: 23,
+      title: "Safri",
+      category: "Graphic Design",
+      description: "As a saxoponist I designed a special logo. Aa classy yet clear logo to be recognized from a far. Video usage can been seen in the 'Saxophonist' section.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri/SA1B.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri/Naamloos-1.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri/safri%20kopjes%20kopie.png"
+      ],
+      year: "2024"
+    },
+    {
+      id: 24,
+      title: "Safri Clothing",
+      category: "Graphic Design",
+      description: "While developing a upcoming clothing company focused on streetwear, I design not only the clothes. But also the logo and graphic designs.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/Safri%20Clothing%20-%2002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/20250607%20Black%20T-Shirt%2001%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/Beige%20T-Shirt%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/White%20T-Shirt%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/Black%20T-Shirt%2001%20kopie.jpg"
+      ],
+      year: "2025"
+    },
+        {
+      id: 25,
+      title: "Imkerij Vitello",
+      category: "Graphic Design",
+      description: "A local honey batcher needed a style, logo and labels for his local raw honey. 2 Bees transfering pheromones makes the logo clear about what the product is all about.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/IV1B.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/Middel%201%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/Middel%202%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/20240817_185353%20kopie.jpg"
+      ],
+      year: "2025"
+    },
+    {
+      id: 30,
+      title: "Wedding gig",
+      category: "Saxophonist",
+      description: "With my own ensemble, we played a special indian song to guide the bride walking down the aisle.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Tudje%20Kitna%20-%20Youtube%20-%2001%20(0-00-25-04)%20kopie.jpg"
       ],
       year: "2024",
-      video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      video: "https://www.youtube.com/embed/RoMMz_e3uUE?si=UjUhs5aVdPOwiSFe"
+    },
+            {
+      id: 31,
+      title: "Movie Premiere",
+      category: "Saxophonist",
+      description: "My wife and I were part of a preshow at a movie premiere in Kinepolis The Hague Westfield Mall.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Premiere%20Hanuman%20-%20Kinepolis%20Leidschendam%20-%2001_1%20kopie.jpg"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/QZtiXkyAlDQ?si=e4ZqzzDwysNzh4vQ"
+    },
+        {
+      id: 32,
+      title: "Kaseko Medley with a family band",
+      category: "Saxophonist",
+      description: "For a birthday party we ensembled close musical family members to play a full gig. This is one of the songs I sang and played.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/La%20Familia%20Live%20_%20Kaseko%20Friyari%20Mix%20(Moi%20Misi)%20kopie.jpg"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/3NSz-2aZbKk?si=97B7vQYdXZspNtpQ"
+    },
+    {
+      id: 33,
+      title: "Groot Bazuin (Part 1)",
+      category: "Saxophonist",
+      description: "My first recording playing with hardware, software and video editing programs. Here we're playing a classic Kaseko song from Surinam.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Groot%20Bazuin%20-%20Youtube%20-%2001%20(0-00-07-00)%20kopie.jpg"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/SFW9DRdMqsE?si=Ype8OwWCi-hSXuXr"
+    },
+    {
+      id: 34,
+      title: "Groot Bazuin (Part 2)",
+      category: "Saxophonist",
+      description: "A sequel to my previous upload playing to remaining part of a classic Kaseko song form Surinam.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Groot%20Bazuin%20-%20Youtube%20-%2001%20(0-00-21-21)%20kopie.jpg"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/Ww_8VJD5trM?si=mR-xa6eaTcF5PnRb"
+    },
+        {
+      id: 35,
+      title: "Pehla Nasha",
+      category: "Saxophonist",
+      description: "Recorded as a promotional video, we recorded a classic Indian song with multiple musicians.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Pehla%20Nasha%20-%20Youtube%20-%2002%20kopie%202.png"
+      ],
+      year: "2024",
+      video: "https://www.youtube.com/embed/uCg-NymP4tA?si=4E4JdFYStakXexDH"
     }
   ]
 };
@@ -88,7 +314,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-white hover:text-purple-400 transition-colors">
-            PORTFOLIO
+            PORTFOLIO ISHVAR BALDEW
           </Link>
           
           <div className="hidden md:flex space-x-8">
@@ -263,7 +489,7 @@ const Home = () => {
 // Work Page
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const workFilters = ['All', 'Retail', 'Shop-in-Shop', 'Animation', 'Tutorials'];
+  const workFilters = ['All', 'Retail', 'Shop-in-Shop', 'Animation'];
   
   const filteredProjects = activeFilter === 'All' 
     ? projectsData.work 
@@ -366,7 +592,7 @@ const ProjectDetail = () => {
               <img 
                 src={project.images[currentImageIndex]} 
                 alt={project.title}
-                className="w-full h-96 object-cover rounded-xl"
+                className="w-full h-full object-cover rounded-xl"
               />
               
               {project.images.length > 1 && (
