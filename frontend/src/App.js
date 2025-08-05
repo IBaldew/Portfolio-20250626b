@@ -8,7 +8,7 @@ const projectsData = {
     {
       id: 1,
       title: "Fitbit Counter Display for CAPI",
-      category: "Retail",
+      category: "Retail Design",
       description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/FB2A.png",
@@ -21,7 +21,7 @@ const projectsData = {
     {
       id: 2,
       title: "GoPro Floor Display for Harrods",
-      category: "Retail",
+      category: "Retail Design",
       description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2002.png",
@@ -33,7 +33,7 @@ const projectsData = {
     {
       id: 3,
       title: "GoPro Counter Display",
-      category: "Retail",
+      category: "Retail Design",
       description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084512%20kopie.png",
@@ -49,7 +49,7 @@ const projectsData = {
     {
       id: 4,
       title: "Trust Lighting Floor Display",
-      category: "Retail",
+      category: "Retail Design",
       description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/TR1A.png",
@@ -61,7 +61,7 @@ const projectsData = {
     {
       id: 5,
       title: "Mascotte",
-      category: "Retail",
+      category: "Retail Design",
       description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2001.jpg",
@@ -159,9 +159,7 @@ const projectsData = {
       year: "2024",
       video: "https://www.youtube.com/embed/l5qm_RIl6AQ?si=ZknTuOZi7yBQjWm6"
     },
-  ],
-  afterHours: [
-    {
+        {
       id: 20,
       title: "Art of Beauty",
       category: "Graphic Design",
@@ -236,6 +234,8 @@ const projectsData = {
       ],
       year: "2025"
     },
+  ],
+  afterHours: [
     {
       id: 30,
       title: "Wedding gig",
@@ -489,7 +489,7 @@ const Home = () => {
 // Work Page
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const workFilters = ['All', 'Retail', 'Shop-in-Shop', 'Animation'];
+  const workFilters = ['All', 'Retail Design', 'Graphic Design', 'Shop-in-Shop', 'Animation'];
   
   const filteredProjects = activeFilter === 'All' 
     ? projectsData.work 
@@ -500,7 +500,7 @@ const Work = () => {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <h1 className="text-5xl font-bold text-center mb-4">Work</h1>
         <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
-          Professional projects spanning retail design, animation, and educational content.
+          Professional projects spanning retail design, graphic design and animation.
         </p>
         
         <FilterTabs 
@@ -522,7 +522,7 @@ const Work = () => {
 // After Hours Page
 const AfterHours = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const afterHoursFilters = ['All', 'Graphic Design', 'Saxophonist'];
+  const afterHoursFilters = ['All', 'Saxophonist'];
   
   const filteredProjects = activeFilter === 'All' 
     ? projectsData.afterHours 
@@ -675,10 +675,13 @@ const About = () => {
         
         <div className="space-y-12">
           <div className="text-center">
-            <div className="w-48 h-48 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mx-auto mb-8"></div>
+            <div className="w-48 h-48 rounded-full mx-auto mb-8 bg-cover bg-center"
+  style={{
+    backgroundImage: "url('https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/frontpage-photo.jpg')"
+  }}></div>
             <h2 className="text-3xl font-bold mb-4">Creative Professional</h2>
             <p className="text-xl text-gray-300">
-              Designer • Saxophonist • Creative Director
+              Designer • Father • Musician
             </p>
           </div>
 
@@ -686,17 +689,17 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-purple-400">Professional</h3>
               <p className="text-gray-300 leading-relaxed">
-                With over a decade of experience in retail design and visual communication, 
+                With over a decade of experience in retail design and even longer in visual communication, 
                 I specialize in creating immersive brand experiences that connect with audiences 
                 on an emotional level. My work spans from intimate boutique concepts to large-scale 
-                retail environments.
+                retail environments. After the office hours I have my own time where I create graphics for myself and others. 
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold mb-6 text-purple-400">Personal</h3>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not designing, you'll find me exploring the creative depths of jazz music 
+                When I'm not designing, you'll find me exploring the creative depths of music 
                 as a saxophonist. This musical journey deeply informs my design work, bringing 
                 rhythm, improvisation, and emotional depth to every project.
               </p>
@@ -717,7 +720,7 @@ const Contact = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-3xl font-bold mb-8">Let's Create Something Amazing</h2>
+            <h2 className="text-3xl font-bold mb-8">Let's Create Something Amazing Together</h2>
             <p className="text-gray-300 text-lg mb-8">
               Ready to bring your vision to life? I'd love to discuss your project 
               and explore how we can create something extraordinary together.
@@ -732,7 +735,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-400">hello@portfolio.com</p>
+                  <p className="text-gray-400">ishvarbaldew@live.nl</p>
                 </div>
               </div>
               
@@ -744,7 +747,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+31 (6) 19062482</p>
                 </div>
               </div>
             </div>
@@ -775,7 +778,7 @@ const Contact = () => {
                 <textarea 
                   rows={5}
                   className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about you..."
                 ></textarea>
               </div>
               
