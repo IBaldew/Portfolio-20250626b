@@ -711,84 +711,79 @@ const About = () => {
   );
 };
 
-// Contact Page
+// Contact Page (zonder formulier, met social media)
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-black text-white pt-24">
-      <div className="max-w-4xl mx-auto px-6 py-16">
-        <h1 className="text-5xl font-bold text-center mb-16">Contact</h1>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          <div>
-            <h2 className="text-3xl font-bold mb-8">Let's Create Something Amazing Together</h2>
-            <p className="text-gray-300 text-lg mb-8">
-              Ready to bring your vision to life? I'd love to discuss your project 
-              and explore how we can create something extraordinary together.
-            </p>
-            
-            <div className="space-y-6">
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-purple-600/20 rounded-full flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-semibold">Email</p>
-                  <p className="text-gray-400">ishvarbaldew@live.nl</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-purple-600/20 rounded-full flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-semibold">Phone</p>
-                  <p className="text-gray-400">+31 (6) 19062482</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="min-h-screen bg-black text-white pt-24 flex items-center justify-center">
+      <div className="max-w-2xl w-full px-6 py-16 text-center">
+        <h1 className="text-5xl font-bold mb-12">Contact</h1>
 
-          <div className="bg-gray-900 p-8 rounded-xl">
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium mb-2">Name</label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
-                  placeholder="Your name"
-                />
-              </div>
-              
-              <div>
-                <label className="block text-sm font-medium mb-2">Email</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
-                  placeholder="your@email.com"
-                />
-              </div>
-              
-              <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
-                <textarea 
-                  rows={5}
-                  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-white"
-                  placeholder="Tell me about you..."
-                ></textarea>
-              </div>
-              
-              <button 
-                type="submit"
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
+        <h2 className="text-3xl font-bold mb-6">Let's Create Something Amazing Together</h2>
+        <p className="text-gray-300 text-lg mb-12">
+          Ready to bring your vision to life? I'd love to connect and explore how we can build something extraordinary.
+        </p>
+
+        <div className="space-y-6 mb-12">
+<div className="space-y-6 mb-12">
+  {/* E-mail */}
+  <div className="flex items-center justify-center space-x-4">
+    <div className="flex-shrink-0 w-12 h-12 bg-purple-600/20 rounded-full flex items-center justify-center">
+      <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    </div>
+    <div className="text-left leading-tight">
+      <p className="font-semibold">Email</p>
+      <p className="text-gray-400">ishvarbaldew@live.nl</p>
+    </div>
+  </div>
+
+  {/* Telefoon */}
+  <div className="flex items-center justify-center space-x-4">
+    <div className="flex-shrink-0 w-12 h-12 bg-purple-600/20 rounded-full flex items-center justify-center">
+      <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+      </svg>
+    </div>
+    <div className="text-left leading-tight">
+      <p className="font-semibold">Phone</p>
+      <p className="text-gray-400">+31(6) 19062482</p>
+    </div>
+  </div>
+</div>
+        </div>
+
+        {/* Social Media */}
+        <div className="mt-8 space-y-4">
+          <p className="text-xl font-semibold mb-4">Volg mij op social media:</p>
+          <div className="flex justify-center space-x-6">
+            <a href="https://www.instagram.com/safrisax/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400 transition">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.75 3a1 1 0 110 2 1 1 0 010-2zm-4.25 1.25a5.25 5.25 0 110 10.5 5.25 5.25 0 010-10.5zm0 1.5a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z" />
+              </svg>
+              <span>Instagram</span>
+            </a>
+
+            <a href="https://www.instagram.com/safriclothing/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400 transition">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.75 3a1 1 0 110 2 1 1 0 010-2zm-4.25 1.25a5.25 5.25 0 110 10.5 5.25 5.25 0 010-10.5zm0 1.5a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5z" />
+              </svg>
+              <span>Instagram Safri Clothing</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ishvar-baldew-b248637b/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400 transition">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM7.5 8h3.6v2.2h.05c.5-.95 1.7-1.95 3.5-1.95 3.75 0 4.45 2.45 4.45 5.6V24h-4v-7.6c0-1.8-.05-4.15-2.5-4.15-2.5 0-2.9 1.95-2.9 4v7.75h-4V8z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://www.facebook.com/ishvar.baldew/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400 transition">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.988H7.898v-2.89h2.54V9.797c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+              </svg>
+              <span>Facebook</span>
+            </a>
           </div>
         </div>
       </div>
