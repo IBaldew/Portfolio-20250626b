@@ -326,7 +326,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-white hover:text-purple-400 transition-colors">
-            PORTFOLIO ISHVAR BALDEW
+            PORTFOLIO
           </Link>
           
           <div className="hidden md:flex space-x-8">
