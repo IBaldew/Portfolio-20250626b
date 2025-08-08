@@ -221,7 +221,7 @@ const projectsData = {
       ],
       year: "2025"
     },
-        {
+    {
       id: 25,
       title: "Imkerij Vitello",
       category: "Graphic Design",
@@ -231,6 +231,18 @@ const projectsData = {
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/Middel%201%20kopie.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/Middel%202%20kopie.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/20240817_185353%20kopie.jpg"
+      ],
+      year: "2025"
+    },
+        {
+      id: 26,
+      title: "Kawasaki Retail Identity",
+      category: "Graphic Design",
+      description: "This is a very clear catalogue for all the Kawasaki retail furniture including description, prices and client information.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-1.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-2-01%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/Schermafbeelding%202025-08-07%20133032.png"
       ],
       year: "2025"
     },
