@@ -120,8 +120,22 @@ const projectsData = {
       ],
       year: "2018"
     },
-    {
+        {
       id: 9,
+      title: "GoPro Gloifier",
+      category: "Animation",
+      description: "Designed by me. I developed an animation which explains the counterdisplays. A simple design suitable for multiple camera models.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_247.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_055.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_099.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_433.png"
+      ],
+      year: "2025",
+      video: "https://www.youtube.com/embed/ETaADkoTpNc"
+    },
+    {
+      id: 10,
       title: "Hoya Eye Exam Stand",
       category: "Animation",
       description: "Designed by our design team, I developed an animation which explains the stand's function and options.",
@@ -134,7 +148,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/5CiKyGFnegA?si=xFSbS9IOLq0SNbZr"
     },
         {
-      id: 10,
+      id: 11,
       title: "Dopper Counter Display",
       category: "Animation",
       description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore.",
@@ -149,7 +163,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/PAMOi8orvpk?si=-22GCApTQVyMItRF"
     },
     {  
-      id: 11,
+      id: 12,
       title: "Crocs Store",
       category: "Animation",
       description: "A small flythrough video of a Crocs Store concept.",
