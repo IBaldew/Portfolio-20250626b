@@ -126,9 +126,9 @@ const projectsData = {
       category: "Animation",
       description: "Designed by our design team, I developed an animation which explains the stand's function and options.",
       images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Store%2001%20-%2001.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2001.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2002.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Store%2001%20-%2001.png"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2002.png"
       ],
       year: "2024",
       video: "https://www.youtube.com/embed/5CiKyGFnegA?si=xFSbS9IOLq0SNbZr"
@@ -139,11 +139,11 @@ const projectsData = {
       category: "Animation",
       description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore.",
       images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_700.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_052.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_125.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_420.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_560.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_700.png"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_560.png"
       ],
       year: "2024",
       video: "https://www.youtube.com/embed/PAMOi8orvpk?si=-22GCApTQVyMItRF"
