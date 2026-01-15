@@ -9,7 +9,7 @@ const projectsData = {
       id: 1,
       title: "Fitbit Counter Display for CAPI",
       category: "Retail Design",
-      description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch.",
+      description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/FB2A.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT%20-%201000mm%20breed%20-%2001_PhysCamera001_copy.png",
@@ -22,7 +22,7 @@ const projectsData = {
       id: 2,
       title: "GoPro Floor Display for Harrods",
       category: "Retail Design",
-      description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products.",
+      description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2002.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2003_PhysCamera002.png",
@@ -34,7 +34,7 @@ const projectsData = {
       id: 3,
       title: "GoPro Counter Display",
       category: "Retail Design",
-      description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's.",
+      description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084512%20kopie.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084548%20kopie.png",
@@ -50,7 +50,7 @@ const projectsData = {
       id: 4,
       title: "Trust Lighting Floor Display",
       category: "Retail Design",
-      description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere.",
+      description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/TR1A.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/Naamloos-1%20kopie.png",
@@ -62,7 +62,7 @@ const projectsData = {
       id: 5,
       title: "Mascotte",
       category: "Retail Design",
-      description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers.",
+      description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2001.jpg",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2002.jpg",
@@ -74,7 +74,7 @@ const projectsData = {
       id: 6,
       title: "Huawei MM Arena",
       category: "Shop-in-Shop",
-      description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far.",
+      description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/03.-Huawei-Brand-Store.jpg",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/04.-Huawei-Brand-Store.jpg",
@@ -88,7 +88,7 @@ const projectsData = {
       id: 7,
       title: "Xiaomi E-Sports",
       category: "Shop-in-Shop",
-      description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS.",
+      description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/saturn_xperion_xiaomi.jpg",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/xiaomi-xperion.jpeg",
@@ -111,7 +111,7 @@ const projectsData = {
       id: 8,
       title: "Huawei Zoetermeer",
       category: "Shop-in-Shop",
-      description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch.",
+      description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Configurator, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181519%20kopie.jpg",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181441%20kopie.jpg",
@@ -122,9 +122,9 @@ const projectsData = {
     },
         {
       id: 9,
-      title: "GoPro Gloifier",
+      title: "GoPro Glorifier",
       category: "Animation",
-      description: "Designed by me. I developed an animation which explains the counterdisplays. A simple design suitable for multiple camera models.",
+      description: "Designed by me. I developed an animation which explains the counterdisplays. A simple design suitable for multiple camera models. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_247.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_055.png",
@@ -138,7 +138,7 @@ const projectsData = {
       id: 10,
       title: "Hoya Eye Exam Stand",
       category: "Animation",
-      description: "Designed by our design team, I developed an animation which explains the stand's function and options.",
+      description: "Designed by our design team, I developed an animation which explains the stand's function and options. Used skills: Retail Design, Graphic Design, Storyteller, Animator/Director.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Store%2001%20-%2001.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Hoya/C1%20Flat%20Packed%20-%2001.png",
@@ -151,7 +151,7 @@ const projectsData = {
       id: 11,
       title: "Dopper Counter Display",
       category: "Animation",
-      description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore.",
+      description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Animator/Director.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_700.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_052.png",
@@ -166,7 +166,7 @@ const projectsData = {
       id: 12,
       title: "Crocs Store",
       category: "Animation",
-      description: "A small flythrough video of a Crocs Store concept.",
+      description: "A small flythrough video of a Crocs Store concept. Used skills: Retail Design, Experience Designer/Storyteller, Animator/Director.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Crocs%20Store/Store%20-%2001%20-%20Fase%2005%20-%2002%204.png"
       ],
@@ -177,7 +177,7 @@ const projectsData = {
       id: 20,
       title: "Art of Beauty",
       category: "Graphic Design",
-      description: "With different coloured strokes, itt reflects perfecty what the company is all about.",
+      description: "With different coloured strokes, itt reflects perfecty what the company is all about. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/AB1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/Art%20of%20Beauty%20Logo%20-%2001%20T-Shirt%20kopie.png",
@@ -189,7 +189,7 @@ const projectsData = {
       id: 21,
       title: "RB Productions",
       category: "Graphic Design",
-      description: "A clear typographical logo which fits the target audience for this music production company.",
+      description: "A clear typographical logo which fits the target audience for this music production company. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/RB1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/RB%20Productions/Naamloos-1.jpg",
@@ -201,7 +201,7 @@ const projectsData = {
       id: 22,
       title: "Naseem",
       category: "Graphic Design",
-      description: "A Indian music group asked for a simple logo. Naseem meaning 'a fresh breeze', the letter represent a gust of wind with a musical note.",
+      description: "A Indian music group asked for a simple logo. Naseem meaning 'a fresh breeze', the letter represent a gust of wind with a musical note. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Naseem/N1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Naseem/OQ3A7S1%20kopie%202.png",
@@ -213,7 +213,7 @@ const projectsData = {
       id: 23,
       title: "Safri",
       category: "Graphic Design",
-      description: "As a saxoponist I designed a special logo. Aa classy yet clear logo to be recognized from a far. Video usage can been seen in the 'Saxophonist' section.",
+      description: "As a saxoponist I designed a special logo. Aa classy yet clear logo to be recognized from a far. Video usage can been seen in the 'Saxophonist' section. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri/SA1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri/Naamloos-1.jpg",
@@ -225,7 +225,7 @@ const projectsData = {
       id: 24,
       title: "Safri Clothing",
       category: "Graphic Design",
-      description: "While developing a upcoming clothing company focused on streetwear, I design not only the clothes. But also the logo and graphic designs.",
+      description: "While developing a upcoming clothing company focused on streetwear, I design not only the clothes. But also the logo and graphic designs. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/Safri%20Clothing%20-%2002.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Safri%20Clothing/20250607%20Black%20T-Shirt%2001%20kopie.jpg",
@@ -239,7 +239,7 @@ const projectsData = {
       id: 25,
       title: "Imkerij Vitello",
       category: "Graphic Design",
-      description: "A local honey batcher needed a style, logo and labels for his local raw honey. 2 Bees transfering pheromones makes the logo clear about what the product is all about.",
+      description: "A local honey batcher needed a style, logo and labels for his local raw honey. 2 Bees transfering pheromones makes the logo clear about what the product is all about. Used skills: Graphic Design/DTP, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/IV1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Vitello/Middel%201%20kopie.png",
@@ -252,7 +252,7 @@ const projectsData = {
       id: 26,
       title: "Kawasaki Retail Identity",
       category: "Graphic Design",
-      description: "This is a very clear catalogue for all the Kawasaki retail furniture including description, prices and client information.",
+      description: "This is a very clear catalogue for all the Kawasaki retail furniture including description, prices and client information. Used skills: Graphic Design.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-1.jpg",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-2-01%20kopie.png",
@@ -264,13 +264,44 @@ const projectsData = {
       id: 27,
       title: "Chief S for Safri",
       category: "Clothing Design",
-      description: "For my own brand, I brought Chief S into the world. A comedic chimp smoking a sigarette. The contradiction with the text 'NO SMOKING', makes this an iconic design.",
+      description: "For my own brand, I brought Chief S into the world. A comedic chimp smoking a sigarette. The contradiction with the text 'NO SMOKING', makes this an iconic design. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
       images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-1.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-2-01%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/Schermafbeelding%202025-08-07%20133032.png"
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/20250903_192747%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/Black%20T-Shirt%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/Beige%20T-Shirt%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/01.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/02.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/20250903_192733%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Chief%20S/20250903_192506%20kopie.jpg"
       ],
-      year: "2025"
+      year: "2026"
+    },
+                {
+      id: 28,
+      title: "Sub Chief for Safri",
+      category: "Clothing Design",
+      description: "For my own brand, I brought Chief S into the world. As an alternative, I made a smaller version of the chimp. Still the same iconic design. But more subtle. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Sub%20Chief/20251002_124917%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Sub%20Chief/20250607%20Black%20T-Shirt%2001%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Sub%20Chief/20251002_124606%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Sub%20Chief/20251002_124631%20kopie.jpg"
+      ],
+      year: "2026"
+    },
+                    {
+      id: 29,
+      title: "Essentials for Safri",
+      category: "Clothing Design",
+      description: "For my own brand it's important that the costumers can walk with quality design without screaming the brand. These subtle design provide just that. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Essentials/20251023_211314%20kopie%202.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Essentials/White%2001%20FRONTSIDE%20-%20Essentials.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Essentials/White%2003%20DETAIL%20-%20LOGO%20-%20Essentials.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Essentials/IMG-20250909-WA0017%20kopie%202.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/Clothing/Sub%20Chief/20251002_124631%20kopie.jpg"
+      ],
+      year: "2026"
     },
   ],
   afterHours: [
