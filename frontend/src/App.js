@@ -260,6 +260,18 @@ const projectsData = {
       ],
       year: "2025"
     },
+            {
+      id: 27,
+      title: "Chief S for Safri",
+      category: "Clothing Design",
+      description: "For my own brand, I brought Chief S into the world. A comedic chimp smoking a sigarette. The contradiction with the text 'NO SMOKING', makes this an iconic design.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-1.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/2025-08-07%20Kawasaki%20Motors%20Europe%20N.V.%20-%20Retail%20Identity%20Catalogue%20PRINT-2-01%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/Schermafbeelding%202025-08-07%20133032.png"
+      ],
+      year: "2025"
+    },
   ],
   afterHours: [
     {
@@ -515,7 +527,7 @@ const Home = () => {
 // Work Page
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const workFilters = ['All', 'Retail Design', 'Graphic Design', 'Shop-in-Shop', 'Animation'];
+  const workFilters = ['All', 'Retail Design', 'Shop-in-Shop', 'Graphic Design', 'Clothing Design', 'Animation'];
   
   const filteredProjects = activeFilter === 'All' 
     ? projectsData.work 
@@ -612,13 +624,13 @@ const ProjectDetail = () => {
           Previous Page
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="flex flex-col gap-12">
           <div>
-            <div className="relative mb-8">
+            <div className="relative max-w-screen-lg mx-auto">
               <img 
                 src={project.images[currentImageIndex]} 
                 alt={project.title}
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-auto object-contain rounded-xl"
               />
               
               {project.images.length > 1 && (

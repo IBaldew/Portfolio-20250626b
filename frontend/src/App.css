@@ -233,7 +233,7 @@ body {
 }
 
 .hero-bg::before {
-  content: '';
+  content: 'normal';
   position: absolute;
   top: 0;
   left: 0;
@@ -293,6 +293,8 @@ body {
 }
 
 .image-gallery img {
+  width: 100%;  /* of bijv. 100% of 50vw */
+  height: auto;  /* behoudt verhoudingen */
   transition: transform 0.5s ease;
 }
 
@@ -394,8 +396,8 @@ body {
 /* Aspect ratio utilities */
 .aspect-w-16 {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  padding-bottom: 100%; /* 16:9 aspect ratio */
+  height: auto;
 }
 
 .aspect-w-16 > * {
