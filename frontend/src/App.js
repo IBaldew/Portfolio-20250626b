@@ -5,121 +5,6 @@ import './App.css';
 // Sample project data
 const projectsData = {
   work: [
-    {
-      id: 1,
-      title: "Fitbit Counter Display for CAPI",
-      category: "Retail Design",
-      description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/FB2A.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT%20-%201000mm%20breed%20-%2001_PhysCamera001_copy.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT_copy.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20Schiphol%20Lounge%202%20(1).jpg"
-      ],
-      year: "2019"
-    },
-    {
-      id: 2,
-      title: "GoPro Floor Display for Harrods",
-      category: "Retail Design",
-      description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2002.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2003_PhysCamera002.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2004b_PhysCamera004.png"
-      ],
-      year: "2019"
-    },
-    {
-      id: 3,
-      title: "GoPro Counter Display",
-      category: "Retail Design",
-      description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084512%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084548%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084535%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Left%2001%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Right%2001%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie2%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie%202.png"
-      ],
-      year: "2025"
-    },
-    {
-      id: 4,
-      title: "Trust Lighting Floor Display",
-      category: "Retail Design",
-      description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/TR1A.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/Naamloos-1%20kopie.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/24029%20-%20Lighting%20displays%20Trust%20-%2002%20kopie%203.png"
-      ],
-      year: "2024"
-    },
-    {
-      id: 5,
-      title: "Mascotte",
-      category: "Retail Design",
-      description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2001.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2002.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/24338-Mignot%20%26%20De%20Block%20BV-Mascotte%20Display-01%20kopie%202.png"
-      ],
-      year: "2025"
-    },
-    {
-      id: 6,
-      title: "Huawei MM Arena",
-      category: "Shop-in-Shop",
-      description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/03.-Huawei-Brand-Store.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/04.-Huawei-Brand-Store.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(2).jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(3).jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Technologies%20NL%20-%20Media%20Markt%20Amsterdam%20Arena%20-%2002.png"
-      ],
-      year: "2019"
-    },
-    {
-      id: 7,
-      title: "Xiaomi E-Sports",
-      category: "Shop-in-Shop",
-      description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/saturn_xperion_xiaomi.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/xiaomi-xperion.jpeg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134325.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134409.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134459.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134536.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134612.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture9.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture5%20-%20kopie.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture11.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture13.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture14.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture16.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture18.jpg"
-      ],
-      year: "2019"
-    },
-    {
-      id: 8,
-      title: "Huawei Zoetermeer",
-      category: "Shop-in-Shop",
-      description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Configurator, Project Management.",
-      images: [
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181519%20kopie.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181441%20kopie.jpg",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%202.png",
-        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%203.png"
-      ],
-      year: "2018"
-    },
         {
       id: 9,
       title: "GoPro Glorifier",
@@ -259,6 +144,121 @@ const projectsData = {
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/Kawasaki%20Catalogue/Schermafbeelding%202025-08-07%20133032.png"
       ],
       year: "2025"
+    },
+        {
+      id: 1,
+      title: "Fitbit Counter Display for CAPI",
+      category: "Retail Design",
+      description: "Designing in an existing space with a lot of store rules. Still we managed to create a illuminated counter display for every smartwatch. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/FB2A.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT%20-%201000mm%20breed%20-%2001_PhysCamera001_copy.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20-%20CAPI%20VERSA%20AMT_copy.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Fitbit/Fitbit%20Schiphol%20Lounge%202%20(1).jpg"
+      ],
+      year: "2019"
+    },
+    {
+      id: 2,
+      title: "GoPro Floor Display for Harrods",
+      category: "Retail Design",
+      description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2003_PhysCamera002.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Fusion/GoPro%20-%20Fusion%20add-on%20Harrods%20-%2004b_PhysCamera004.png"
+      ],
+      year: "2019"
+    },
+    {
+      id: 3,
+      title: "GoPro Counter Display",
+      category: "Retail Design",
+      description: "A minimalist GoPro style counter display. Simple, clean and yet so modular. Easy to produce and adjust. Costumizable with different magnet visuals and camera's. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084512%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084548%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/20250711_084535%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Left%2001%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/HERO%20Right%2001%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie2%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/GoPro%20Glorifier/24239-GoPro%20GmbH-GoPro%20-%20Glorifier%202024%20-%2004%20kopie%202.png"
+      ],
+      year: "2025"
+    },
+    {
+      id: 4,
+      title: "Trust Lighting Floor Display",
+      category: "Retail Design",
+      description: "Drawn to gaming rooms, these products create the right vibes for the right feeling. Knocked down to present that feeling into a floordisplay, this unit can be placed anywhere. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/TR1A.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/Naamloos-1%20kopie.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Trust%20Lighting/24029%20-%20Lighting%20displays%20Trust%20-%2002%20kopie%203.png"
+      ],
+      year: "2024"
+    },
+    {
+      id: 5,
+      title: "Mascotte",
+      category: "Retail Design",
+      description: "A counter display for Mascotte's best selling products. Can be placed almost everywhere. Easy to produce and perfect for the retailers. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2001.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/Impact%20Instore_Mascotte%20counter%2002.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/retail/Mascotte/24338-Mignot%20%26%20De%20Block%20BV-Mascotte%20Display-01%20kopie%202.png"
+      ],
+      year: "2025"
+    },
+    {
+      id: 6,
+      title: "Huawei MM Arena",
+      category: "Shop-in-Shop",
+      description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/03.-Huawei-Brand-Store.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/04.-Huawei-Brand-Store.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(2).jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Media%20Markt%20Arena%20%20(3).jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20MM%20Arena/Huawei%20Technologies%20NL%20-%20Media%20Markt%20Amsterdam%20Arena%20-%2002.png"
+      ],
+      year: "2019"
+    },
+    {
+      id: 7,
+      title: "Xiaomi E-Sports",
+      category: "Shop-in-Shop",
+      description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/saturn_xperion_xiaomi.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/xiaomi-xperion.jpeg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134325.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134409.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134459.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134536.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/IMG_20200703_134612.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture9.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture5%20-%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture11.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture13.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture14.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture16.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Xiaomi/Picture18.jpg"
+      ],
+      year: "2019"
+    },
+    {
+      id: 8,
+      title: "Huawei Zoetermeer",
+      category: "Shop-in-Shop",
+      description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Configurator, Project Management.",
+      images: [
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181519%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/IMG_20190702_181441%20kopie.jpg",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%202.png",
+        "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Huawei%20Zoetermeer/Huawei%20NL%20-%20Media%20Markt%20Zoetermeer%20-%20Final%20Design%20Phase%203.png"
+      ],
+      year: "2018"
     },
             {
       id: 27,
