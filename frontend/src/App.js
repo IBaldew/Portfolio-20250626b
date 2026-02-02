@@ -72,7 +72,7 @@ const projectsData = {
       year: "2019"
     },
     {
-      id: 5,
+      id: 6,
       title: "GoPro Floor Display for Harrods",
       category: "Retail Design",
       description: "A minimalist GoPro style floor display. With all the theft sensitive items in a showcase, this display is versatile for multiple products. Used skills: Retail Design, Graphic Design, Storyteller, Project Management.",
@@ -84,7 +84,7 @@ const projectsData = {
       year: "2019"
     },
     {
-      id: 6,
+      id: 7,
       title: "Napoleon Barbeque",
       category: "Shop-in-Shop",
       description: "This is a whole retail family designed for this barbeque brand. From big wall units to the small brackets. All is designed and used now. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller.",
@@ -97,7 +97,7 @@ const projectsData = {
       year: "2023"
     },
     {
-      id: 7,
+      id: 8,
       title: "Huawei MM Arena",
       category: "Shop-in-Shop",
       description: "This is a unique shop designed especially for Mediamarkt Arena. Implementing the design language Huawei brought into a new enviroment, makes this SIS outstanding. With the big illuminated logo on top, the SIS could easily been seen from a far. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
@@ -111,7 +111,7 @@ const projectsData = {
       year: "2019"
     },
     {
-      id: 8,
+      id: 9,
       title: "UNU Motors",
       category: "Shop-in-Shop",
       description: "I was little involved in the designing aspect of this project. But my Engineering skills was used. Used skills: Engineer.",
@@ -125,7 +125,7 @@ const projectsData = {
       year: "2023"
     },
     {
-      id: 9,
+      id: 10,
       title: "Xiaomi E-Sports",
       category: "Shop-in-Shop",
       description: "This shop first needed the costumer experience/journey designed before thinking about shape. A special corner for gamers to attend tournaments with E-Sports. With this area divided into 3 sections, each section gives the costumers a great versatile experience in this SIS. Used skills: Retail Design, Graphic Design/DTP, Experience Designer/Storyteller, Project Management.",
@@ -148,7 +148,7 @@ const projectsData = {
       year: "2019"
     },
     {
-      id: 10,
+      id: 11,
       title: "Huawei Zoetermeer",
       category: "Shop-in-Shop",
       description: "Configurating and installing the predesigned furniture, gives every Shop-in-Shop a personal touch. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Configurator, Project Management.",
@@ -161,7 +161,7 @@ const projectsData = {
       year: "2018"
     },
         {
-      id: 11,
+      id: 12,
       title: "GoPro Glorifier",
       category: "Animation",
       description: "Designed by me. I developed an animation which explains the counterdisplays. A simple design suitable for multiple camera models. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
@@ -175,7 +175,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/ETaADkoTpNc"
     },
     {
-      id: 12,
+      id: 13,
       title: "Hoya Eye Exam Stand",
       category: "Animation",
       description: "Designed by our design team, I developed an animation which explains the stand's function and options. Used skills: Retail Design, Graphic Design, Storyteller, Animator/Director.",
@@ -188,7 +188,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/5CiKyGFnegA?si=xFSbS9IOLq0SNbZr"
     },
         {
-      id: 13,
+      id: 14,
       title: "Dopper Counter Display",
       category: "Animation",
       description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Animator/Director.",
@@ -203,7 +203,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/PAMOi8orvpk?si=-22GCApTQVyMItRF"
     },
     {  
-      id: 14,
+      id: 15,
       title: "Crocs Store",
       category: "Animation",
       description: "A small flythrough video of a Crocs Store concept. Used skills: Retail Design, Experience Designer/Storyteller, Animator/Director.",
@@ -214,7 +214,7 @@ const projectsData = {
       video: "https://www.youtube.com/embed/l5qm_RIl6AQ?si=ZknTuOZi7yBQjWm6"
     },
         {
-      id: 15,
+      id: 16,
       title: "RB Productions",
       category: "Graphic Design",
       description: "A clear typographical logo which fits the target audience for this music production company. Used skills: Graphic Design, Account/Project Manager.",
@@ -226,7 +226,7 @@ const projectsData = {
       year: "2023"
     },
     {
-      id: 16,
+      id: 17,
       title: "Naseem",
       category: "Graphic Design",
       description: "A Indian music group asked for a simple logo. Naseem meaning 'a fresh breeze', the letter represent a gust of wind with a musical note. Used skills: Graphic Design, Account/Project Manager.",
@@ -238,7 +238,7 @@ const projectsData = {
       year: "2023"
     },
     {
-      id: 17,
+      id: 18,
       title: "Safri",
       category: "Graphic Design",
       description: "As a saxoponist I designed a special logo. Aa classy yet clear logo to be recognized from a far. Video usage can been seen in the 'Saxophonist' section. Used skills: Graphic Design, Account/Project Manager.",
@@ -250,7 +250,7 @@ const projectsData = {
       year: "2024"
     },
     {
-      id: 18,
+      id: 19,
       title: "Safri Clothing",
       category: "Graphic Design",
       description: "While developing a upcoming clothing company focused on streetwear, I design not only the clothes. But also the logo and graphic designs. Used skills: Graphic Design, Account/Project Manager.",
@@ -264,7 +264,7 @@ const projectsData = {
       year: "2025"
     },
     {
-      id: 19,
+      id: 20,
       title: "Imkerij Vitello",
       category: "Graphic Design",
       description: "A local honey batcher needed a style, logo and labels for his local raw honey. 2 Bees transfering pheromones makes the logo clear about what the product is all about. Used skills: Graphic Design/DTP, Account/Project Manager.",
@@ -277,7 +277,7 @@ const projectsData = {
       year: "2025"
     },
         {
-      id: 20,
+      id: 21,
       title: "Kawasaki Retail Identity",
       category: "Graphic Design",
       description: "This is a very clear catalogue for all the Kawasaki retail furniture including description, prices and client information. Used skills: Graphic Design.",
@@ -289,7 +289,7 @@ const projectsData = {
       year: "2025"
     },
             {
-      id: 21,
+      id: 22,
       title: "Art of Beauty",
       category: "Graphic Design",
       description: "With different coloured strokes, itt reflects perfecty what the company is all about. Used skills: Graphic Design, Account/Project Manager.",
@@ -301,7 +301,7 @@ const projectsData = {
       year: "2023"
     },
             {
-      id: 22,
+      id: 23,
       title: "Chief S for Safri",
       category: "Clothing Design",
       description: "For my own brand, I brought Chief S into the world. A comedic chimp smoking a sigarette. The contradiction with the text 'NO SMOKING', makes this an iconic design. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
@@ -317,7 +317,7 @@ const projectsData = {
       year: "2026"
     },
                 {
-      id: 23,
+      id: 24,
       title: "Sub Chief for Safri",
       category: "Clothing Design",
       description: "For my own brand, I brought Chief S into the world. As an alternative, I made a smaller version of the chimp. Still the same iconic design. But more subtle. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
@@ -330,7 +330,7 @@ const projectsData = {
       year: "2026"
     },
                     {
-      id: 24,
+      id: 25,
       title: "Essentials for Safri",
       category: "Clothing Design",
       description: "For my own brand it's important that the costumers can walk with quality design without screaming the brand. These subtle design provide just that. Used skills: Sewing, Graphic Design, Photography, Project Management, Sourcing Manager, Clothing Design, Sales Manager, Social Media/Marketing Manager, Everything else.",
