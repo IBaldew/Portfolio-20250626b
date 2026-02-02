@@ -160,7 +160,7 @@ const projectsData = {
       ],
       year: "2018"
     },
-        {
+    {
       id: 12,
       title: "GoPro Glorifier",
       category: "Animation",
@@ -187,7 +187,7 @@ const projectsData = {
       year: "2024",
       video: "https://www.youtube.com/embed/5CiKyGFnegA?si=xFSbS9IOLq0SNbZr"
     },
-        {
+    {
       id: 14,
       title: "Dopper Counter Display",
       category: "Animation",
@@ -213,7 +213,7 @@ const projectsData = {
       year: "2024",
       video: "https://www.youtube.com/embed/l5qm_RIl6AQ?si=ZknTuOZi7yBQjWm6"
     },
-        {
+    {
       id: 16,
       title: "RB Productions",
       category: "Graphic Design",
@@ -276,7 +276,7 @@ const projectsData = {
       ],
       year: "2025"
     },
-        {
+    {
       id: 21,
       title: "Kawasaki Retail Identity",
       category: "Graphic Design",
@@ -292,7 +292,7 @@ const projectsData = {
       id: 22,
       title: "Art of Beauty",
       category: "Graphic Design",
-      description: "With different coloured strokes, itt reflects perfecty what the company is all about. Used skills: Graphic Design, Account/Project Manager.",
+      description: "With different coloured strokes, it reflects perfecty what the company is all about. Used skills: Graphic Design, Account/Project Manager.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/AB1B.png",
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/graphic/logo/Art%20of%20Beauty/Art%20of%20Beauty%20Logo%20-%2001%20T-Shirt%20kopie.png",
@@ -300,7 +300,7 @@ const projectsData = {
       ],
       year: "2023"
     },
-            {
+    {
       id: 23,
       title: "Chief S for Safri",
       category: "Clothing Design",
@@ -316,7 +316,7 @@ const projectsData = {
       ],
       year: "2026"
     },
-                {
+    {
       id: 24,
       title: "Sub Chief for Safri",
       category: "Clothing Design",
@@ -329,7 +329,7 @@ const projectsData = {
       ],
       year: "2026"
     },
-                    {
+    {
       id: 25,
       title: "Essentials for Safri",
       category: "Clothing Design",
