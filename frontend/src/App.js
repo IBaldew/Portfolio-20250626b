@@ -163,7 +163,7 @@ const projectsData = {
         {
       id: 11,
       title: "GoPro Glorifier",
-      category: "Retail Design", "Animation",
+      category: "Animation",
       description: "Designed by me. I developed an animation which explains the counterdisplays. A simple design suitable for multiple camera models. Used skills: Retail Design, Engineering, Graphic Design/DTP, Storyteller, Project Management.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/GoPro%20Glorifier/Main_01_247.png",
@@ -190,7 +190,7 @@ const projectsData = {
         {
       id: 13,
       title: "Dopper Counter Display",
-      category: "Retail Design", "Animation",
+      category: "Animation",
       description: "Designed by me. I developed a flatpacked display which explains how it will be assembled instore. Used skills: Retail Design, Graphic Design/DTP, Storyteller, Animator/Director.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Dopper/Dopper%20Post%2001%20-%2001_700.png",
@@ -205,7 +205,7 @@ const projectsData = {
     {  
       id: 14,
       title: "Crocs Store",
-      category: "Retail Design", "Animation",
+      category: "Animation",
       description: "A small flythrough video of a Crocs Store concept. Used skills: Retail Design, Experience Designer/Storyteller, Animator/Director.",
       images: [
         "https://raw.githubusercontent.com/IBaldew/Portfolio/refs/heads/main/img/sis/Crocs%20Store/Store%20-%2001%20-%20Fase%2005%20-%2002%204.png"
